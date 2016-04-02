@@ -1,0 +1,19 @@
+{
+  "name": "heteroplasmy",
+  "version": "0.1.0",
+  "description": "Программа для определения уровня гетероплазмии по данным NGS-секвенирования мтДНК.",
+  "main": "heteroplasmy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stanislav Dryomov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "express": "4.13.4",
+    "express-session": "1.13.0",
+    "jade": "1.11.0",
+    "morgan": "1.7.0",
+    "multer": "1.1.0"
+  }
+}

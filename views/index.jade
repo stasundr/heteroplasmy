@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        title heteroplasmy.js
+        style
+            include /kube.min.css
+        style
+            include /dropzone.css
+        script(src='/jquery-2.2.2.min.js')
+        script(src='/dropzone.js')
+        script(src='/refresh.js')
+    body
+        row
+            column(cols='1')
+            column(cols='10')
+                h1(class='title') heteroplasmy.js
+        row
+            column(cols='1')
+            column(cols='10')
+                p
+                |Hello fd
+                form(action='/sam/upload', class='dropzone', id='my-awesome-dropzone')
