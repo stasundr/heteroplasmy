@@ -5,5 +5,5 @@ $(
         $.post('/refresh', function(data) {
             //if (data) alert(data);
         })
-    }, 15000)
+    }, 1000)
 );
